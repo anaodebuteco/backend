@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "479aa9c4-d233-477a-90a9-193451bc39d1",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48204172",
+		"_collection_link": "https://pedro-silveira-67abefaf-3982317.postman.co/workspace/Pedro-Henrique-Alves-de-Freitas~1b9e8d72-c321-4225-8a8a-d6be97f785a5/collection/48204172-479aa9c4-d233-477a-90a9-193451bc39d1?action=share&source=collection_link&creator=48204172"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/tarefa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tarefa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET COM A ID:1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/tarefas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tarefas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET NAO ENCONTRADO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/tarefas/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tarefas",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/tarefas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tarefas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT COM A ID:1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/tarefas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tarefas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE COM ID:1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/tarefas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tarefas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
