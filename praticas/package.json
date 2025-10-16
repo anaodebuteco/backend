@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run start",
+    "test": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
@@ -12,6 +12,9 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "express-generator": "^4.16.1",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.4"
   }
 }
