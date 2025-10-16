@@ -17,4 +17,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+<<<<<<< HEAD
+=======
+const tarefaRouter = require("./routes/tarefaRouter");
+app.use("/tarefas", tarefaRouter);
+
+
+>>>>>>> db07edac9fbfbffd87c6e78c467494d5ff0f2634
 module.exports = app;

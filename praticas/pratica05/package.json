@@ -3,13 +3,25 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "start": "node ./bin/www",
   "test": "jest --watchAll"
  },
+=======
+  "test": "jest --watchAll"
+},
+>>>>>>> db07edac9fbfbffd87c6e78c467494d5ff0f2634
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "morgan": "~1.9.1"
+<<<<<<< HEAD
+=======
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+>>>>>>> db07edac9fbfbffd87c6e78c467494d5ff0f2634
   }
 }
